@@ -1,0 +1,27 @@
+
+.head{
+	background-color: #212529;
+}
+/* form start*/
+.form-back{
+	background-color:black;
+}
+.bdr{
+	margin: 50px 0;
+	border: 2px solid #198754;
+	border-radius: 5px;
+}
+.fmarg{
+	margin-top: 50px;
+}
+.bmarg{
+	margin-bottom: 50px;
+}
+.tclr{
+	color: #dfe6e9;
+	margin-bottom: 10px;
+}
+.check-clr{
+	color: #b2bec3;
+}
+/*form end*/

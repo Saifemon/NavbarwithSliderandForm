@@ -1,0 +1,84 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.con-full{
+	    margin: 0 0px;
+    }
+    .c-indi {
+    right: 26%;
+    bottom: 0%;
+    display: block;
+    }
+    .c-indi [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.con-full{
+	    margin: 0 0px;
+    }
+    .c-indi {
+    right: 26%;
+    bottom: 0%;
+    display: block;
+    }
+    .c-indi [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    }
+    .cap-item{}
+    .cap-item h2{
+    	font-size: 30px;
+    }
+    .cap-item p {
+    font-size: 15px;
+    letter-spacing: 0;
+   }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.con-full{
+	    margin: 0 0px;
+    }
+    .c-indi {
+    right: 28%;
+    bottom: 0%;
+    display: block;
+    }
+    .c-indi [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    }
+    .cap-item{}
+    .cap-item h2{
+    	font-size: 35px;
+    }
+    .cap-item p {
+    font-size: 16px;
+    letter-spacing: 0;
+   }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.cap-item p {
+    letter-spacing: .2px;
+   }
+}
+
+/*Extra Large devices (Extra large desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

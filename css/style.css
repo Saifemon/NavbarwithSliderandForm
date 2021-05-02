@@ -1,0 +1,50 @@
+/*header start*/
+.men{
+	margin-right: 50px;
+}
+.con-full{
+	margin: 0 50px;
+}
+
+/*header end*/
+
+/* carousel start*/
+/*.c-prev {
+    left: 90% !important;
+    bottom: 5% !important;
+}
+.c-next {
+    right: 0 !important;
+    bottom: 5% !important;
+}
+.c-prev, .c-next {
+    top: 95%;
+    width: 5%;
+}
+.cp-icon, .cn-icon {
+    width: 20px;
+    height: 20px;
+}*/
+
+/*indicator start*/
+.c-indi {
+	left: auto;
+    right: 80%;
+    bottom: 50%;
+    display: block;
+}
+.c-indi [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.cap-item{}
+.cap-item h2{
+	font-size: 40px;
+}
+.cap-item p{
+	font-size: 17px;
+	letter-spacing: .3px;
+}
+
+/* carousel end*/

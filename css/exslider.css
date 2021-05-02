@@ -1,0 +1,40 @@
+
+.head{
+	background-color: #212529;
+}
+.banner{
+	background-image: url(../images/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slider{
+	background-color: rgba(1,1,1,.5);
+	color: white;
+	padding: 80px;
+}
+.slider h2{
+	margin-top: 135px;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.slider p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.slider button{
+	margin-bottom: 150px;
+	color: white;
+	background-color: #FD3B01;
+}
+.indi{
+	bottom: 60px;
+}
+.indi [data-bs-target]{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(253.166,59,.5);
+}
+
+
