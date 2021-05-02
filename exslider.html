@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/exslider.css">
+    <link rel="stylesheet" href="css/exslider-media.css">
+
+    <title>Custom Slider</title>
+  </head>
+  <body>
+
+      <!--header start-->
+  <header class="head">
+  <div class="container">
+    <!--nav start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid con-full">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSc" aria-controls="navbarSc" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSc">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 men">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="exslider.html">Extra Slider</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="form.html">Form</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+    <!--nav end-->
+  </div>
+  </header>
+  <!--header end-->
+ <!--custom slider start-->
+ <section class="banner">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-6 col-md-7 col-sm-12">
+ 				<!--slider start-->
+ 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators indi">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <!--item one start-->
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <div class="slider">
+                      	<h2>First slide label</h2>
+                      	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, dolorem cum temporibus accusamus sint, et!</p>
+                      	<div class="d-grid col-sm-12 d-md-block justify-content-sm-center">
+                      	   <button type="button" class="btn">Visit Here</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!--item one end-->
+                    <!--item two start-->
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <div class="slider">
+                      	<h2>Second slide label</h2>
+                      	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, dolorem cum temporibus accusamus sint, et!</p>
+                      	<div class="d-grid col-sm-12 d-md-block justify-content-sm-center">
+                      	   <button type="button" class="btn">Visit Here</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!--item two end-->
+                    <!--item three start-->
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <div class="slider">
+                      	<h2>Third slide label</h2>
+                      	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, dolorem cum temporibus accusamus sint, et!</p>
+                      	<div class="d-grid col-sm-12 d-md-block justify-content-sm-center">
+                      	   <button type="button" class="btn">Visit Here</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!--item three end-->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+ 				<!--slider end-->
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!--custom slider end-->
+
+
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
